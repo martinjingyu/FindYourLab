@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔬 FindYourLab
+# 📡 ProfRadar
 
 **AI-powered professor discovery for PhD applicants**
 
@@ -44,8 +44,8 @@ You tell it a school and your research interests. It does the rest:
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourname/FindYourLab.git
-cd FindYourLab
+git clone https://github.com/yourname/ProfRadar.git
+cd ProfRadar
 pip install -r requirements.txt
 
 cp .env.example .env
@@ -202,7 +202,7 @@ Fetching and summarizing are fully parallel — 50 professors typically finish i
 ## Project Structure
 
 ```
-FindYourLab/
+ProfRadar/
 ├── main.py                  # Entry point & orchestration
 ├── data_manager.py          # CSRankings data fetching & caching
 ├── school_selector.py       # Interactive school picker
